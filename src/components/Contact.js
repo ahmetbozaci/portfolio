@@ -1,3 +1,7 @@
-const Contact = () => <p>Contact</p>;
+const Contact = () => (
+  <p id="contact">
+    Contact
+  </p>
+);
 
 export default Contact;

@@ -5,12 +5,12 @@ import {
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => (
-  <>
+  <div id="Home">
     <NavigationBar />
     <About />
     <Work />
     <Contact />
     <Footer />
-  </>
+  </div>
 );
 export default App;

@@ -1,3 +1,3 @@
-const Work = () => <p>Work</p>;
+const Work = () => <p id="work">Work</p>;
 
 export default Work;
