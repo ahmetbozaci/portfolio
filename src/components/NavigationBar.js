@@ -1,11 +1,21 @@
 import {
   Nav, Navbar, Container,
 } from 'react-bootstrap';
+import logo from '../assets/images/logo.png';
 
 const NavigationBar = () => (
-  <Navbar bg="light" expand="lg" fixed="top">
+  <Navbar bg="dark" expand="lg" fixed="top" variant="dark">
     <Container>
-      <Navbar.Brand href="#home">Ahmet Bozaci</Navbar.Brand>
+      <Navbar.Brand href="#home">
+        {' '}
+        <img
+          alt="logo"
+          src={logo}
+          width="30"
+          height="30"
+        />
+        {' '}
+      </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav" className="text-right">
         <Nav className="me-auto" />

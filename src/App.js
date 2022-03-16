@@ -1,16 +1,17 @@
 import './App.css';
+import { Container } from 'react-bootstrap';
 import {
-  NavigationBar, Footer, Work, About, Contact,
+  NavigationBar, Footer, Work, Main, Contact,
 } from './components';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => (
-  <div id="Home">
+  <Container id="Home">
     <NavigationBar />
-    <About />
+    <Main />
     <Work />
     <Contact />
     <Footer />
-  </div>
+  </Container>
 );
 export default App;
