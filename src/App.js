@@ -1,12 +1,15 @@
 import './App.css';
-import { NavigationBar, Footer } from './components';
+import {
+  NavigationBar, Footer, Work, About, Contact,
+} from './components';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => (
   <>
     <NavigationBar />
-    <br />
-    <br />
+    <About />
+    <Work />
+    <Contact />
     <Footer />
   </>
 );
