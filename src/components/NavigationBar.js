@@ -2,9 +2,10 @@ import {
   Nav, Navbar,
 } from 'react-bootstrap';
 import logo from '../assets/images/logo.png';
+import './NavigationBar.css';
 
 const NavigationBar = () => (
-  <Navbar bg="dark" expand="lg" fixed="top" variant="dark">
+  <Navbar bg="dark" expand="lg" fixed="top" variant="dark" className="navigationbar">
     <Navbar.Brand href="#home">
       <img
         alt="logo"

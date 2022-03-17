@@ -1,7 +1,9 @@
+import './About.css';
+
 const About = () => (
   <div
     style={{ backgroundColor: 'yellow' }}
-    className="d-flex justify-content-between"
+    className="d-flex justify-content-between about"
   >
     <div>
       <h3>About me</h3>
