@@ -1,6 +1,10 @@
 import './App.css';
 import {
-  NavigationBar, Footer, Work, Main, Contact,
+  NavigationBar,
+  Footer,
+  Work,
+  Main,
+  Contact, About,
 } from './components';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -9,6 +13,7 @@ const App = () => (
     <NavigationBar />
     <Main />
     <Work />
+    <About />
     <Contact />
     <Footer />
   </div>
