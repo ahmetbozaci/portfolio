@@ -1,9 +1,8 @@
-/** @format */
-
 import ContactForm from './ContactForm';
+import './Contact.css';
 
 const Contact = () => (
-  <div className="pb-5">
+  <div className="pb-5 contact">
     <h2>CONTACT</h2>
     <div
       id="contact"
