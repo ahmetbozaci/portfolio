@@ -1,9 +1,10 @@
-import './About.css';
+import './Style/About.css';
 
 const About = () => (
   <div
     style={{ backgroundColor: 'yellow' }}
     className="d-flex justify-content-between about"
+    id="about"
   >
     <div>
       <h3>About me</h3>

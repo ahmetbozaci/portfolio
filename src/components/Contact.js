@@ -1,5 +1,5 @@
 import ContactForm from './ContactForm';
-import './Contact.css';
+import './Style/Contact.css';
 
 const Contact = () => (
   <div className="pb-5 contact">

@@ -1,7 +1,7 @@
-import './Main.css';
+import './Style/Main.css';
 
 const Main = () => (
-  <div id="about" style={{ marginTop: '100px' }} className="main">
+  <div style={{ marginTop: '100px' }} className="main">
     <h1>Pretty code by ingenious person</h1>
     <p>
       Hello I am a software developer! I can help you build a product, feature

@@ -2,7 +2,7 @@ import {
   Nav, Navbar,
 } from 'react-bootstrap';
 import logo from '../assets/images/logo.png';
-import './NavigationBar.css';
+import './Style/NavigationBar.css';
 
 const NavigationBar = () => (
   <Navbar bg="dark" expand="lg" fixed="top" variant="dark" className="navigationbar">
