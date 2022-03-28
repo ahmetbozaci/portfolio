@@ -4,9 +4,9 @@ import ProjectMathMagician from './Projects/ProjectMathMagician';
 import './Style/Work.css';
 
 const Work = () => (
-  <div className="work">
+  <div className="work" id="work">
     <h3>Work Section</h3>
-    <div className="d-flex justify-content-around my-5" id="work">
+    <div className="d-flex justify-content-around">
       <ProjectMathMagician />
       <ProjectCovid />
     </div>

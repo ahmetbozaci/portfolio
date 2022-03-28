@@ -2,7 +2,6 @@ import './Style/About.css';
 
 const About = () => (
   <div
-    style={{ backgroundColor: 'yellow' }}
     className="d-flex justify-content-between about"
     id="about"
   >
@@ -15,7 +14,6 @@ const About = () => (
       >
         Get my resume
       </a>
-
     </div>
     <div>
       <div className="list-unstyled">
