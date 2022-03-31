@@ -2,7 +2,7 @@ import ContactForm from './ContactForm';
 import './Style/Contact.css';
 
 const Contact = () => (
-  <div className="pb-5 contact" id="contact">
+  <div className="contact" id="contact">
     <h2>CONTACT</h2>
     <div
       className="d-lg-flex justify-content-between m-sm-auto"
@@ -20,7 +20,6 @@ const Contact = () => (
           <span> ahmt9417@gmail.com</span>
         </p>
       </div>
-
       <ContactForm />
     </div>
   </div>

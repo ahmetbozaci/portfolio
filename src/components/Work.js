@@ -5,7 +5,7 @@ import './Style/Work.css';
 
 const Work = () => (
   <div className="work" id="work">
-    <h3>Work Section</h3>
+    <h3 className="pb-4">Work</h3>
     <div className="d-flex justify-content-around">
       <ProjectMathMagician />
       <ProjectCovid />

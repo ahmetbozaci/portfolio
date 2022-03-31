@@ -8,12 +8,12 @@ const ContactForm = () => (
   >
     <Form.Group className="mb-3" controlId="formBasicName">
       <Form.Label>Whats your name?</Form.Label>
-      <Form.Control type="text" placeholder="Name*" name="name" />
+      <Form.Control type="text" placeholder="Name*" name="name" required />
     </Form.Group>
 
     <Form.Group className="mb-3" controlId="formBasicEmail">
       <Form.Label>Your email address</Form.Label>
-      <Form.Control type="email" placeholder="Email*" name="email" />
+      <Form.Control type="email" placeholder="Email*" name="email" required />
     </Form.Group>
 
     <Form.Group className="mb-3" controlId="formBasicText">
@@ -24,8 +24,9 @@ const ContactForm = () => (
         maxLength="200"
         placeholder="Message*"
         name="message"
+        required
       />
-      <Form.Text className="text-muted">0/200</Form.Text>
+      <Form.Text className="text-muted" required>0/200</Form.Text>
     </Form.Group>
     <div className="">
       <Button variant="primary" type="submit">
