@@ -5,7 +5,7 @@ import { Nav } from 'react-bootstrap';
 import './Style/Footer.css';
 
 const Footer = () => (
-  <div className="text-center footer text-light">
+  <div className="text-center footer text-light pt-5 pb-1">
     <Nav className="justify-content-center">
       <Nav.Link href="mailto:ahmt9417@gmail.com">
         <FaMailBulk size={17} className="text-light" />
