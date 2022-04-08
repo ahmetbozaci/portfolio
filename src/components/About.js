@@ -1,11 +1,9 @@
+import Skills from './Skills';
 import './Style/About.css';
 
 const About = () => (
-  <div
-    className="d-flex justify-content-between about"
-    id="about"
-  >
-    <div>
+  <div className="d-flex justify-content-between about" id="about">
+    <div className="align-self-center">
       <h3>About me</h3>
       <p>Contact with me write something about yourself</p>
       <a
@@ -15,37 +13,7 @@ const About = () => (
         Get my resume
       </a>
     </div>
-    <div>
-      <div className="list-unstyled">
-        <h4>Languages</h4>
-        <ul className="d-flex list-unstyled justify-content-around">
-          <li>HTML5</li>
-          <li>CSS3</li>
-          <li>JavaScript</li>
-          <li>Ruby</li>
-        </ul>
-      </div>
-      <div>
-        <h4>Frameworks</h4>
-        <ul className="d-flex list-unstyled justify-content-around">
-          <li>Ruby on Rails</li>
-          <li>React.js</li>
-          <li>Bootstrap</li>
-        </ul>
-      </div>
-      <div>
-        <h4>Tools</h4>
-        <ul className="d-flex list-unstyled justify-content-around">
-          <li>Git</li>
-          <li>Github</li>
-          <li>Rspec</li>
-          <li>Netlify</li>
-          <li>Heroku</li>
-          <li>Mobile/Responsive Development</li>
-          <li>Chrome Dev Tools</li>
-        </ul>
-      </div>
-    </div>
+    <Skills />
   </div>
 );
 
