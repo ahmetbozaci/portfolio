@@ -1,0 +1,14 @@
+.about {
+  padding: 150px 100px;
+  background-color: #141628;
+  color: white;
+}
+
+@media  screen and (max-width: 992px) {
+  .about {
+    padding: 100px 100px;
+  }
+  .aboutme-container {
+    padding-bottom: 6rem;
+  }  
+}

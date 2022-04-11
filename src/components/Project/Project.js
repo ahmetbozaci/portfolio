@@ -1,11 +1,10 @@
-// import { Container } from 'react-bootstrap';
 import ProjectCovid from './Projects/ProjectCovid';
 import ProjectMathMagician from './Projects/ProjectMathMagician';
-import './Style/Work.css';
+import './Project.css';
 
-const Work = () => (
+const Project = () => (
   <div className="work" id="work">
-    <h3 className="pb-4">Work</h3>
+    <h3 className="pb-4">Project</h3>
     <div className="d-flex justify-content-around">
       <ProjectMathMagician />
       <ProjectCovid />
@@ -14,4 +13,4 @@ const Work = () => (
 
 );
 
-export default Work;
+export default Project;

@@ -1,9 +1,9 @@
-import NavigationBar from './NavigationBar';
-import Footer from './Footer';
-import Main from './Main';
-import Contact from './Contact';
-import Work from './Work';
-import About from './About';
+import NavigationBar from './Navbar/NavigationBar';
+import Footer from './Footer/Footer';
+import Main from './Main/Main';
+import Contact from './Contact/Contact';
+import Work from './Project/Project';
+import About from './About/About';
 
 export {
   NavigationBar,

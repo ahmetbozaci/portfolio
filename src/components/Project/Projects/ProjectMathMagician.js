@@ -2,7 +2,7 @@ import { FaHtml5, FaCss3Alt, FaReact } from 'react-icons/fa';
 import { IoLogoJavascript } from 'react-icons/io';
 import { SiJest } from 'react-icons/si';
 import { Card, Badge } from 'react-bootstrap';
-import covid from '../../assets/images/covid.png';
+import covid from '../../../assets/images/covid.png';
 
 const ProjectMathMagician = () => (
   <Card style={{ width: '30rem' }}>

@@ -1,8 +1,8 @@
 import {
   Nav, Navbar,
 } from 'react-bootstrap';
-import logo from '../assets/images/logo.png';
-import './Style/NavigationBar.css';
+import logo from '../../assets/images/logo.png';
+import './NavigationBar.css';
 
 const NavigationBar = () => (
   <Navbar expand="lg" fixed="top" variant="dark" className="navigationbar py-1">

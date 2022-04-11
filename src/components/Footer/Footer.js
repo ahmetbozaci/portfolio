@@ -2,7 +2,7 @@ import {
   FaGithub, FaLinkedin, FaTwitter, FaMailBulk,
 } from 'react-icons/fa';
 import { Nav } from 'react-bootstrap';
-import './Style/Footer.css';
+import './Footer.css';
 
 const Footer = () => (
   <div className="text-center footer text-light pb-1">

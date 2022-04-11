@@ -1,6 +1,4 @@
-/** @format */
-
-import './Style/Main.css';
+import './Main.css';
 
 const Main = () => (
   <div className="main" id="main">
