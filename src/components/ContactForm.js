@@ -2,7 +2,7 @@ import { Form, Button } from 'react-bootstrap';
 
 const ContactForm = () => (
   <Form
-    className="w-50"
+    className="w-sm-100"
     action="https://formspree.io/f/xnqwzglq"
     method="POST"
   >
@@ -28,7 +28,7 @@ const ContactForm = () => (
       />
       <Form.Text className="text-muted" required>0/200</Form.Text>
     </Form.Group>
-    <div className="">
+    <div>
       <Button variant="primary" type="submit">
         Send message
       </Button>

@@ -1,5 +1,11 @@
 .contact {
   background-color: #1B1E32;
-  padding: 30px 100px;
+  padding: 100px 100px;
   color: white;
+}
+
+@media  screen and (min-width: 992px) {
+  form {
+    width: 50%;
+  }  
 }

@@ -2,9 +2,9 @@ import ContactForm from './ContactForm';
 import './Style/Contact.css';
 
 const Contact = () => (
-  <div className="contact py-5" id="contact">
-    <h2 className="py-5">CONTACT</h2>
-    <div className="d-lg-flex justify-content-between m-sm-auto">
+  <div className="contact" id="contact">
+    <h2 className="pb-4">CONTACT</h2>
+    <div className="d-lg-flex justify-content-between">
       <div className="align-self-center">
         <h3 className="text-line py-4">
           Interested in working with me or

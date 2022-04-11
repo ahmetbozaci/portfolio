@@ -5,17 +5,17 @@ import logo from '../assets/images/logo.png';
 import './Style/NavigationBar.css';
 
 const NavigationBar = () => (
-  <Navbar bg="" expand="lg" fixed="top" variant="dark" className="navigationbar">
+  <Navbar expand="lg" fixed="top" variant="dark" className="navigationbar py-1">
     <Navbar.Brand href="#home">
       <img
         alt="logo"
         src={logo}
-        width="30"
-        height="30"
+        width="50"
+        height="50"
       />
     </Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
-    <Navbar.Collapse id="basic-navbar-nav" className="text-right">
+    <Navbar.Collapse id="basic-navbar-nav" className="text-right lead">
       <Nav className="me-auto" />
       <Nav>
         <Nav.Link href="#main">Home</Nav.Link>
