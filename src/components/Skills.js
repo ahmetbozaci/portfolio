@@ -1,10 +1,13 @@
 import {
   FaHtml5, FaCss3Alt, FaReact, FaGithub,
+  FaGitSquare, FaChrome,
 } from 'react-icons/fa';
 import { IoLogoJavascript } from 'react-icons/io';
 import { BsFillBootstrapFill } from 'react-icons/bs';
-import { SiRubyonrails } from 'react-icons/si';
-import { DiRuby } from 'react-icons/di';
+import {
+  SiRubyonrails, SiNetlify, SiHeroku, SiTestin,
+} from 'react-icons/si';
+import { DiRuby, DiResponsive } from 'react-icons/di';
 import { Badge } from 'react-bootstrap';
 
 const Skills = () => (
@@ -51,17 +54,42 @@ const Skills = () => (
     <hr />
     <div className="">
       <h3 className="pb-3">Tools</h3>
-      <ul className="d-flex list-unstyled gap-2">
+      <div className="d-flex list-unstyled gap-2 pb-2">
         <Badge bg="dark">
           Github
           <FaGithub size={20} className="px-1" />
         </Badge>
-        <li>Git</li>
-        <li>TDD</li>
-        <li>Heroku</li>
-        <li>Responsive Development</li>
-        <li>Chrome DevTools</li>
-      </ul>
+        <Badge bg="danger">
+          Git
+          <FaGitSquare size={20} className="px-1" />
+        </Badge>
+        <Badge bg="info">
+          Netlify
+          <SiNetlify size={20} className="px-1" />
+        </Badge>
+        <Badge bg="dark">
+          Heroku
+          <SiHeroku size={20} className="px-1" />
+        </Badge>
+        <Badge bg="success">
+          Rspec
+          <SiTestin size={20} className="px-1" />
+        </Badge>
+      </div>
+      <div className="d-flex list-unstyled gap-2">
+        <Badge bg="success">
+          TDD
+          <SiTestin size={20} className="px-1" />
+        </Badge>
+        <Badge bg="warning">
+          Mobile/Responsive Development
+          <DiResponsive size={20} className="px-1" />
+        </Badge>
+        <Badge bg="danger">
+          Chrome DevTools
+          <FaChrome size={20} className="px-1" />
+        </Badge>
+      </div>
     </div>
   </div>
 );
