@@ -4,8 +4,18 @@
   color: white;
 }
 
+@media  screen and (max-width: 992px) {
+  form {
+    width: 100%;
+  }
+  .contact {
+    padding: 60px;
+
+  }  
+}
+
 @media  screen and (min-width: 992px) {
   form {
     width: 50%;
-  }  
+  }
 }

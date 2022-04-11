@@ -2,7 +2,6 @@ import { Form, Button } from 'react-bootstrap';
 
 const ContactForm = () => (
   <Form
-    className="w-sm-100"
     action="https://formspree.io/f/xnqwzglq"
     method="POST"
   >
