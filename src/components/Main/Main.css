@@ -3,3 +3,10 @@
   background-color:#141628;
   color: white;
 }
+
+@media  screen and (max-width: 992px) {
+  .main {
+    padding: 230px 50px;
+  }
+
+}

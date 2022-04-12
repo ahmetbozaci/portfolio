@@ -16,15 +16,15 @@ const Skills = () => (
     <div className="pb-4">
       <h3 className="pb-3">Languages</h3>
       <div className="list-unstyled">
-        <Badge bg="danger" className="me-2">
+        <Badge bg="danger">
           HTML
           <FaHtml5 size={20} className="ps-1" />
         </Badge>
-        <Badge bg="primary" className="me-2">
+        <Badge bg="primary">
           CSS
           <FaCss3Alt size={20} className="ps-1" />
         </Badge>
-        <Badge bg="warning" className="me-2">
+        <Badge bg="warning">
           JavaScript
           <IoLogoJavascript size={20} className="ps-1" />
         </Badge>
@@ -38,11 +38,11 @@ const Skills = () => (
     <div className="py-4">
       <h3 className="pb-3">Frameworks</h3>
       <div className="">
-        <Badge bg="danger" className="me-2">
+        <Badge bg="danger">
           Ruby on Rails
           <SiRubyonrails size={20} className="ps-1" />
         </Badge>
-        <Badge bg="info" className="me-2">
+        <Badge bg="info">
           React.js
           <FaReact size={20} className="ps-1" />
         </Badge>
@@ -56,7 +56,7 @@ const Skills = () => (
     <div className="pt-4">
       <h3 className="pb-3">Tools</h3>
       <div className="pb-2">
-        <Badge bg="dark" className="my-2 me-2">
+        <Badge bg="dark">
           Github
           <FaGithub size={20} className="ps-1" />
         </Badge>
@@ -64,7 +64,7 @@ const Skills = () => (
           Git
           <FaGitSquare size={20} className="ps-1" />
         </Badge>
-        <Badge bg="info" className="m-2">
+        <Badge bg="info">
           Netlify
           <SiNetlify size={20} className="ps-1" />
         </Badge>
@@ -72,7 +72,7 @@ const Skills = () => (
           Heroku
           <SiHeroku size={20} className="ps-1" />
         </Badge>
-        <Badge bg="success" className="m-2">
+        <Badge bg="success">
           Rspec
           <SiTestin size={20} className="ps-1" />
         </Badge>
@@ -80,7 +80,7 @@ const Skills = () => (
           TDD
           <SiTestin size={20} className="ps-1" />
         </Badge>
-        <Badge bg="warning" className="m-2">
+        <Badge bg="warning">
           Mobile/Responsive Development
           <DiResponsive size={20} className="ps-1" />
         </Badge>

@@ -6,9 +6,9 @@
 
 @media  screen and (max-width: 992px) {
   .about {
-    padding: 100px 100px;
+    padding: 100px 50px;
   }
   .aboutme-container {
-    padding-bottom: 6rem;
+    padding-bottom: 5rem;
   }  
 }

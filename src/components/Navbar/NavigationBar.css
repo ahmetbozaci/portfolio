@@ -2,3 +2,10 @@
   padding: 0 100px;
   background-color: #141628;
 }
+
+@media  screen and (max-width: 992px) {
+  .navigationbar {
+    padding: 20px;
+  }
+
+}
