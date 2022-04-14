@@ -7,14 +7,18 @@ const Main = () => (
       <br />
       Ahmet Bozacı
     </h1>
-    <p>
-      Hello I am a software developer!
+    <p className="lead">
+      I am a software developer!
       <br />
-      I can help you build a product, feature or website. Look through some of
+      I can help you build a product, feature or website. Look
+      <br />
+      through some of
       my work and experience!
       <br />
       <br />
-      If you like what you see and have project you need code, dont hesitate
+      If you like what you see and have project you need code,
+      <br />
+      dont hesitate
       to
       {' '}
       <a href="#contact" className="text-decoration-none">

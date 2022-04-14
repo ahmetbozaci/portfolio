@@ -11,7 +11,7 @@ const Contact = () => (
           <br />
           perhaps just talk?
         </h3>
-        <p className="pb-4">
+        <p className="pb-4 lead">
           Reach me on social media, by filling out the contact form or
           <br />
           by sending and email to

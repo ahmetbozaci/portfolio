@@ -12,7 +12,7 @@ import { DiRuby, DiResponsive } from 'react-icons/di';
 import { Badge } from 'react-bootstrap';
 
 const Skills = () => (
-  <div>
+  <div className="ms-lg-5 w-100">
     <div className="pb-4">
       <h3 className="pb-3">Languages</h3>
       <div className="list-unstyled">

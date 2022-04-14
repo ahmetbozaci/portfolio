@@ -1,16 +1,14 @@
 const Aboutme = () => (
-  <div className="align-self-center aboutme-container">
+  <div className="align-self-center aboutme-container me-lg-5">
     <h2>About me</h2>
-    <p className="pt-4">dsa</p>
-    <p>
-      Look through some of my work and experience! If you like what you see and
-      <br />
-      have
-      project you need coded, don&apos;t hesisate to
-      {' '}
-      <a href="#contact" className="text-decoration-none">
-        contact me
-      </a>
+    <p className="lead pt-4">
+      Full-stack web developer and open-source
+      enthusiast with a love for clean code,
+      optimized solutions, and accessible design.
+      Pair-programming and remote work aficionado.
+      Fluent in multiple languages, frameworks, and technologies,
+      and capable of ramping up quickly and efficiently.
+      I am passionate about helping others and sharing my knowledge.
     </p>
     <a
       className="btn btn-primary mt-3"
