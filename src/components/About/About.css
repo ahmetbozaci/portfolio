@@ -3,7 +3,9 @@
   background-color: #141628;
   color: white;
 }
-
+.badge {
+  margin: 5px;
+}
 @media  screen and (max-width: 992px) {
   .about {
     padding: 100px 50px;
