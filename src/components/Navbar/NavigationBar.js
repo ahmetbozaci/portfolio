@@ -5,7 +5,7 @@ import logo from '../../assets/images/logo.png';
 import './NavigationBar.css';
 
 const NavigationBar = () => (
-  <Navbar expand="lg" fixed="top" variant="dark" className="navigationbar py-1">
+  <Navbar expand="lg" fixed="top" variant="dark" className="navigationbar py-1" collapseOnSelect>
     <Navbar.Brand href="#home">
       <img
         alt="logo"
@@ -14,7 +14,7 @@ const NavigationBar = () => (
         height="50"
       />
     </Navbar.Brand>
-    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+    <Navbar.Toggle aria-controls="basic-navbar-nav" data-toggle="collapse" />
     <Navbar.Collapse id="basic-navbar-nav" className="text-right lead">
       <Nav className="me-auto" />
       <Nav>
