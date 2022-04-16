@@ -8,7 +8,7 @@
 - [Twitter](https://twitter.com/ahmtbozaci)
 - [LinkedIn](https://www.linkedin.com/in/ahmetbozaci/)
 
-<!-- Live Link -->
+
 
 ## Show your support
 
