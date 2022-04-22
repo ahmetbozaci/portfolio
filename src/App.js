@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import './App.css';
 import {
   NavigationBar,
@@ -12,7 +13,7 @@ const App = () => (
   <div>
     <NavigationBar />
     <Main />
-    <Work />
+    {/* <Work /> */}
     <About />
     <Contact />
     <Footer />

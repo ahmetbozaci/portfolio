@@ -2,7 +2,7 @@ import { Form, Button } from 'react-bootstrap';
 
 const ContactForm = () => (
   <Form
-    action="https://formspree.io/f/xnqwzglq"
+    data-netlify="true"
     method="POST"
   >
     <Form.Group className="mb-3" controlId="formBasicName">
