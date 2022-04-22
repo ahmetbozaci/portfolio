@@ -1,0 +1,23 @@
+.about {
+  padding: 150px 100px;
+  background-color: #141628;
+  color: white;
+}
+.badge {
+  margin: 5px;
+}
+@media  screen and (max-width: 992px) {
+  .about {
+    padding: 100px 50px;
+    
+  }
+  .aboutme-container {
+    padding-bottom: 5rem;
+  }  
+}
+
+@media  screen and (min-width: 992px) {
+  .aboutme-container {
+    width:75%;
+  }  
+}

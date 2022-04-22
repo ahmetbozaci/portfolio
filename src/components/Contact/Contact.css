@@ -1,0 +1,21 @@
+.contact {
+  background-color: #1B1E32;
+  padding: 100px 100px;
+  color: white;
+}
+
+@media  screen and (max-width: 992px) {
+  form {
+    width: 100%;
+  }
+  .contact {
+    padding: 100px 50px;
+
+  }  
+}
+
+@media  screen and (min-width: 992px) {
+  form {
+    width: 50%;
+  }
+}
